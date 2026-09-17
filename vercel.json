@@ -1,10 +1,13 @@
 {
   "version": 2,
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
   "outputDirectory": "dist",
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/:page(criar|checkout|contato|termos|privacidade)",
       "destination": "/index.html"
     }
   ]
